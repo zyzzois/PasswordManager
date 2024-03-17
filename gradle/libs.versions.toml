@@ -1,0 +1,59 @@
+[versions]
+agp = "8.2.2"
+kotlin = "1.9.22"
+core-ktx = "1.12.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+dagger = "2.50"
+retrofit = "2.9.0"
+gson = "2.10.1"
+logging-interceptor = "4.10.0"
+ksp = "1.9.0-1.0.13"
+constraintlayout = "2.1.4"
+kotlinx-metadata-jvm ="0.6.2"
+navigation = "2.7.7"
+org-jetbrains-kotlin-jvm = "1.9.22"
+glide-version = "4.16.0"
+navigation-ui-ktx = "2.7.7"
+room = "2.6.1"
+encrypted = "1.1.0-alpha06"
+picasso = "2.71828"
+biometric = "1.1.0"
+biometric-ktx = "1.2.0-alpha05"
+
+[libraries]
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+biometric-ktx = { group = "androidx.biometric", name = "biometric-ktx", version.ref = "biometric-ktx" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room"}
+room = { group = "androidx.room", name = "room-runtime", version.ref = "room"}
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room"}
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+encrypted-shared-prefs = { group = "androidx.security", name = "security-crypto", version.ref = "encrypted" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger"}
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+dagger-other = { group = "org.jetbrains.kotlinx", name = "kotlinx-metadata-jvm", version.ref = "kotlinx-metadata-jvm" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit"}
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson"}
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logging-interceptor"}
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation"}
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation"}
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide-version"}
+
+[plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation-ui-ktx" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
